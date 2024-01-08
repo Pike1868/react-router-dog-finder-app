@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DogList component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="DogList"
+  >
+    <div
+      class="row mt-4"
+    >
+      <div
+        class="col"
+      >
+        <h2
+          class="text-center"
+        >
+          HELLO. WE HAVE DOGS. CLICK ON THEM FOR MORE INFO.
+        </h2>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-3 text-center"
+      >
+        <img
+          alt="Whiskey"
+          src="/whiskey.jpg"
+        />
+        <h3
+          class="mt-3"
+        >
+          <a
+            href="/dogs/whiskey"
+          >
+            Whiskey
+          </a>
+        </h3>
+      </div>
+      <div
+        class="col-3 text-center"
+      >
+        <img
+          alt="Duke"
+          src="/duke.jpg"
+        />
+        <h3
+          class="mt-3"
+        >
+          <a
+            href="/dogs/duke"
+          >
+            Duke
+          </a>
+        </h3>
+      </div>
+      <div
+        class="col-3 text-center"
+      >
+        <img
+          alt="Perry"
+          src="/perry.jpg"
+        />
+        <h3
+          class="mt-3"
+        >
+          <a
+            href="/dogs/perry"
+          >
+            Perry
+          </a>
+        </h3>
+      </div>
+      <div
+        class="col-3 text-center"
+      >
+        <img
+          alt="Tubby"
+          src="/tubby.jpg"
+        />
+        <h3
+          class="mt-3"
+        >
+          <a
+            href="/dogs/tubby"
+          >
+            Tubby
+          </a>
+        </h3>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

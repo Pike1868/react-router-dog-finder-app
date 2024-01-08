@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterDog component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Meet Whiskey!
+    </h2>
+    <div
+      class="col-3 text-center"
+    >
+      <img
+        alt="Whiskey"
+        src="/whiskey.jpg"
+      />
+    </div>
+    <ul>
+      <li>
+        Whiskey loves eating popcorn.
+      </li>
+      <li>
+        Whiskey is a terrible guard dog.
+      </li>
+      <li>
+        Whiskey wants to cuddle with you!
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

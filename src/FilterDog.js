@@ -38,7 +38,7 @@ const FilterDog = ({ dogs }) => {
   if (redirect) {
     return (
       <p>
-        No dog found with the name of <strong>{name}</strong>. Redirecting to
+        No dog found with the name of {name}. Redirecting to
         all dogs....
       </p>
     );

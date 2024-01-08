@@ -3,17 +3,15 @@ import { Link } from "react-router-dom";
 
 /**
  * DogList Component:
- * 
+ *
  * Returns each dog displayed in a div, with its image, and name as a Link to that dogs detail page
  *
  * Props:
  * - dogs (array): Array of dog objects
  *
- *
  */
 
 const DogList = ({ dogs }) => {
-  console.log(dogs);
   return (
     <div className="DogList">
       <div className="row mt-4">

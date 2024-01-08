@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      Welcome to Dog Finder!
+    </h1>
+    <nav
+      style="display: flex; justify-content: space-around; background-color: lightblue; padding: 10px;"
+    >
+      <a
+        aria-current="page"
+        class="active"
+        href="/dogs"
+      >
+        Home
+      </a>
+      <a
+        class=""
+        href="/dogs/whiskey"
+      >
+        Whiskey
+      </a>
+      <a
+        class=""
+        href="/dogs/duke"
+      >
+        Duke
+      </a>
+      <a
+        class=""
+        href="/dogs/perry"
+      >
+        Perry
+      </a>
+      <a
+        class=""
+        href="/dogs/tubby"
+      >
+        Tubby
+      </a>
+    </nav>
+    <div
+      class="DogList"
+    >
+      <div
+        class="row mt-4"
+      >
+        <div
+          class="col"
+        >
+          <h2
+            class="text-center"
+          >
+            HELLO. WE HAVE DOGS. CLICK ON THEM FOR MORE INFO.
+          </h2>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-3 text-center"
+        >
+          <img
+            alt="Whiskey"
+            src="/whiskey.jpg"
+          />
+          <h3
+            class="mt-3"
+          >
+            <a
+              href="/dogs/whiskey"
+            >
+              Whiskey
+            </a>
+          </h3>
+        </div>
+        <div
+          class="col-3 text-center"
+        >
+          <img
+            alt="Duke"
+            src="/duke.jpg"
+          />
+          <h3
+            class="mt-3"
+          >
+            <a
+              href="/dogs/duke"
+            >
+              Duke
+            </a>
+          </h3>
+        </div>
+        <div
+          class="col-3 text-center"
+        >
+          <img
+            alt="Perry"
+            src="/perry.jpg"
+          />
+          <h3
+            class="mt-3"
+          >
+            <a
+              href="/dogs/perry"
+            >
+              Perry
+            </a>
+          </h3>
+        </div>
+        <div
+          class="col-3 text-center"
+        >
+          <img
+            alt="Tubby"
+            src="/tubby.jpg"
+          />
+          <h3
+            class="mt-3"
+          >
+            <a
+              href="/dogs/tubby"
+            >
+              Tubby
+            </a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

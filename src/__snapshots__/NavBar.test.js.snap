@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    style="display: flex; justify-content: space-around; background-color: lightblue; padding: 10px;"
+  >
+    <a
+      class=""
+      href="/dogs"
+    >
+      Home
+    </a>
+    <a
+      class=""
+      href="/dogs/whiskey"
+    >
+      Whiskey
+    </a>
+    <a
+      class=""
+      href="/dogs/duke"
+    >
+      Duke
+    </a>
+    <a
+      class=""
+      href="/dogs/perry"
+    >
+      Perry
+    </a>
+    <a
+      class=""
+      href="/dogs/tubby"
+    >
+      Tubby
+    </a>
+  </nav>
+</DocumentFragment>
+`;

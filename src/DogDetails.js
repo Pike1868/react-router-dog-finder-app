@@ -16,8 +16,8 @@ const DogDetails = ({ dog }) => {
         <img src={`/${dog.src}.jpg`} alt={dog.name} />
       </div>
       <ul>
-        {dog.facts.map((f) => (
-          <li>{f}</li>
+        {dog.facts.map((f, i) => (
+          <li key={i}>{f}</li>
         ))}
       </ul>
     </div>

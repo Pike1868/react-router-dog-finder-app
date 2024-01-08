@@ -15,7 +15,6 @@ import DogList from "./DogList";
  */
 
 const RouteList = ({ dogs }) => {
-  console.log(dogs);
   return (
     <Routes>
       <Route path="/dogs" element={<DogList dogs={dogs} />} />
